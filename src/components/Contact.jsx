@@ -1,13 +1,13 @@
 const Contact = () => {
   return (
-    <div className="max-w-[1200px] mx-auto bg-black sm:py-20 p-5" id="contact">
+    <div className="max-w-[1200px] mx-auto sm:py-20 p-5" id="contact">
       <div className="text-center">
         <h2 className="primary-color text-4xl font-bold leading-tight">
           Contact Me
         </h2>
       </div>
       <div className="max-w-[800px] mx-auto">
-        <div className="mt-6 bg-[#161616] rounded-xl">
+        <div className="mt-6 bg-[#526d7749] rounded-xl">
           <div className="p-10">
             <form action="https://getform.io/f/pbmqwvob" method="post">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-4">
