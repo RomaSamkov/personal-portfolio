@@ -1,9 +1,9 @@
-import proj1 from "../assets/proj1.png";
-import proj2 from "../assets/proj2.png";
-import proj3 from "../assets/proj3.png";
-import proj4 from "../assets/proj4.png";
-import proj5 from "../assets/proj5.png";
-import proj6 from "../assets/proj6.png";
+import proj1 from "../assets/Game-JS.png";
+import proj2 from "../assets/filmoteka.png";
+import proj3 from "../assets/petsproject.png";
+import proj4 from "../assets/phonebook.png";
+import proj5 from "../assets/searchimages.png";
+import proj6 from "../assets/react-examples.png";
 
 const Work = () => {
   return (
