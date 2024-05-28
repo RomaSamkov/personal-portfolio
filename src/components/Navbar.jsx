@@ -9,14 +9,14 @@ const Navbar = () => {
   return (
     <div className="text-gray-400 h-[100px] max-w-[1200px] mx-auto flex justify-between items-center">
       <h1 className="text-3xl font-bold primary-color ml-4">RomaRS</h1>
-      <ul className="hidden md:flex">
-        <li className="p-5">
+      <ul className="hidden md:flex gap-4">
+        <li className="px-7 py-1 transition ease-in-out  hover:text-white hover:bg-indigo-700 w-[100px] duration-300 rounded-3xl">
           <a href="#about">About</a>
         </li>
-        <li className="p-5">
+        <li className="px-7 py-1 transition ease-in-out  hover:text-white hover:bg-indigo-700 w-[100px] duration-300 rounded-3xl">
           <a href="#work">Work</a>
         </li>
-        <li className="p-5">
+        <li className="px-7 py-1 transition ease-in-out  hover:text-white hover:bg-indigo-700 w-[110px] duration-300 rounded-3xl">
           <a href="#contact">Contact</a>
         </li>
       </ul>
