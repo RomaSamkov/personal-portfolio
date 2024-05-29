@@ -17,12 +17,24 @@ const Work = () => {
           className="transform transition-transform duration-300 hover:scale-105 overflow-hidden 
         shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[200px] bg-cover relative"
         >
-          <img src={proj1} alt="project1" />
+          <img
+            src={proj1}
+            alt="project1"
+            className="h-[100%] w-full rounded-md"
+          />
           <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
-            <span className="text-2xl font-bold text-white tracking-wider">
-              Project1
+            <span className="p-1 text-white">
+              Project1 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Officiis, quos ad modi voluptatem atque in ut corrupti velit
+              repellat, perferendis nobis voluptas eos maiores ertwetewrt
+              etwertwertewrtw
             </span>
             <div className="pt-8 text-center">
+              <a href="">
+                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  Live
+                </button>
+              </a>
               <a href="">
                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                   Live
@@ -35,7 +47,7 @@ const Work = () => {
           className="transform transition-transform duration-300 hover:scale-105 overflow-hidden 
         shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[200px] bg-cover relative"
         >
-          <img src={proj2} alt="project2" />
+          <img src={proj2} alt="project2" className="h-[100%]" />
           <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
             <span className="text-2xl font-bold text-white tracking-wider">
               Project2
@@ -53,7 +65,7 @@ const Work = () => {
           className="transform transition-transform duration-300 hover:scale-105 overflow-hidden 
         shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[200px] bg-cover relative"
         >
-          <img src={proj3} alt="project3" />
+          <img src={proj3} alt="project3" className="h-[100%]" />
           <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
             <span className="text-2xl font-bold text-white tracking-wider">
               Project3
@@ -71,7 +83,7 @@ const Work = () => {
           className="transform transition-transform duration-300 hover:scale-105 overflow-hidden 
         shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[200px] bg-cover relative"
         >
-          <img src={proj4} alt="project4" />
+          <img src={proj4} alt="project4" className="h-[100%]" />
           <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
             <span className="text-2xl font-bold text-white tracking-wider">
               Project4
@@ -89,7 +101,7 @@ const Work = () => {
           className="transform transition-transform duration-300 hover:scale-105 overflow-hidden 
         shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[200px] bg-cover relative"
         >
-          <img src={proj5} alt="project5" />
+          <img src={proj5} alt="project5" className="h-[100%]" />
           <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
             <span className="text-2xl font-bold text-white tracking-wider">
               Project5
@@ -107,7 +119,7 @@ const Work = () => {
           className="transform transition-transform duration-300 hover:scale-105 overflow-hidden 
         shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[200px] bg-cover relative"
         >
-          <img src={proj6} alt="project6" />
+          <img src={proj6} alt="project6" className="h-[100%]" />
           <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
             <span className="text-2xl font-bold text-white tracking-wider">
               Project6
