@@ -15,15 +15,16 @@ const Work = () => {
       <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
         <div
           className="transform transition-transform duration-300 hover:scale-105 overflow-hidden 
-        shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[200px] bg-cover relative"
+        shadow-lg shadow-[#040c16] group rounded-md flex flex-col justify-center items-center h-[250px] bg-cover relative"
         >
+          <h2 className="text-white mb-2">Game JS</h2>
           <img
             src={proj1}
             alt="project1"
             className="h-[100%] w-full rounded-md"
           />
           <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-between items-center">
-            <span className="pl-4 text-black font-bold inline-block text-[1.1rem]">
+            <span className="pl-4 text-[#f3da4d] font-bold inline-block text-[1.1rem]">
               2D game with vanilla JavaScript, <br /> HTML5, CSS3 and HTML
               Canvas !
             </span>
@@ -43,23 +44,24 @@ const Work = () => {
         </div>
         <div
           className="transform transition-transform duration-300 hover:scale-105 overflow-hidden 
-        shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[200px] bg-cover relative"
+        shadow-lg shadow-[#040c16] group rounded-md flex flex-col justify-center items-center h-[250px] bg-cover relative"
         >
+          <h2 className="text-white mb-2">-- FILMOTEKA --</h2>
           <img src={proj2} alt="project2" className="h-[100%]" />
-          <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-between items-center">
-            <span className="pl-4 text-black font-bold inline-block text-[1rem] pt-2">
+          <div className="opacity-0 group-hover:opacity-90 bg-[white]/60 absolute inset-0 flex flex-col justify-between items-center">
+            <span className="pl-4 text-[#0d091d] font-bold inline-block text-[1rem] pt-8">
               Team project about searching for movies, and adding favorite
               movies to a personal library. Used: pure JS, npm packages and
               SCSS. Team-project. Role: Team Lead.
             </span>
             <div className="text-center">
               <a href="">
-                <button className="text-center rounded-lg w-[100px] m-2 bg-white text-gray-700 font-bold text-lg hover:text-white hover:bg-[#110822]/50">
+                <button className="text-center rounded-lg w-[100px] m-2 bg-[#151131] text-white font-bold text-lg hover:text-[#151131] hover:bg-white">
                   Live
                 </button>
               </a>
               <a href="">
-                <button className="text-center rounded-lg w-[100px] m-2 bg-white text-gray-700 font-bold text-lg hover:text-white hover:bg-[#110822]/50">
+                <button className="text-center rounded-lg w-[100px] m-2 bg-[#151131] text-white font-bold text-lg hover:text-[#151131] hover:bg-white">
                   Github
                 </button>
               </a>
